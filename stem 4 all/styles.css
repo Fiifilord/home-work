@@ -1,0 +1,228 @@
+/* Customize Bootstrap Styles */
+
+/* Update the background color for the banner and navigation */
+#banner {
+    background-color: #ffca28;
+    padding-top: 40px; /* Increase top padding to make the banner taller */
+    padding-bottom: 40px; /* Increase bottom padding to make the banner taller */
+}
+
+/* Reduce space between slider image and banner */
+#slideshow {
+    margin-top: -20px; /* Adjust the negative margin to reduce the space */
+    margin-bottom: -20px; /* Adjust the negative margin to reduce the space */
+    padding-bottom: 0; /* Remove padding at the bottom of the slideshow */
+}
+
+/* Adjust the banner padding to match */
+
+
+nav.navbar {
+    background-color: #ffca28;
+    border-bottom: 2px solid #333; /* Add a border at the bottom of the navbar */
+    margin-bottom: 20px; /* Add spacing below the navbar */
+}
+
+/* Style the navbar links */
+.navbar-nav .nav-link {
+    color: #333; /* Change link color */
+    font-weight: bold;
+    transition: color 0.3s; /* Add smooth color transition */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffca28; /* Change link color on hover */
+}
+
+/* Adjust the maximum height of carousel images */
+.carousel-inner img {
+    max-height: 700px; /* Set your desired maximum height for the images */
+    width: auto; /* Allow the width to adjust proportionally */
+    margin: 0 auto; /* Center the images horizontally */
+}
+
+
+/* Style the carousel indicators and controls */
+.carousel-indicators li {
+    background-color: #ffca28;
+    border: 2px solid #333; /* Add a border around indicators */
+}
+
+.carousel-indicators .active {
+    background-color: #333; /* Change active indicator color */
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #ffca28; /* Change arrow background color */
+    border-radius: 50%; /* Make arrow buttons round */
+    padding: 10px; /* Increase arrow button size */
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: 6%; /* Adjust arrow button size */
+}
+
+/* Style the carousel captions (optional) */
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.7); /* Add a semi-transparent background */
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style the "Get Involved" section buttons */
+.get-involved-option .card {
+    border: none; /* Remove card borders */
+    transition: transform 0.2s; /* Add a slight zoom effect on hover */
+}
+
+.get-involved-option .card:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow on hover */
+}
+
+
+/* Style the social media icons */
+.social-icons a {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #fff;
+    transition: color 0.3s; /* Add smooth color transition */
+}
+
+.social-icons a:hover {
+    color: #ffca28; /* Change icon color on hover */
+}
+
+/* Additional Custom Styles */
+
+/* Style the testimonials section */
+#testimonials {
+    background-color: #f8f8f8;
+    padding: 40px 0;
+}
+
+.card {
+    border: none; /* Remove card borders */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+    padding: 20px;
+}
+
+.card p {
+    font-style: italic;
+    margin-top: 15px;
+}
+
+/* Style for the slide images */
+.carousel-inner img {
+    max-height: 700px;
+    width: auto;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* Style for the caption text */
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.7); /* Add a semi-transparent background */
+    color: #fff; /* Text color */
+    position: absolute;
+    top: 50%; /* Position at the middle vertically */
+    left: 50%; /* Position at the middle horizontally */
+    transform: translate(-50%, -50%); /* Center horizontally and vertically */
+    padding: 15px; /* Add some padding */
+    text-align: center; /* Center text horizontally */
+    max-width: 70%; /* Limit the width of the caption */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add a shadow */
+}
+
+.caption-content h3 {
+    font-size: 24px; /* Adjust the font size as needed */
+    margin-bottom: 10px; /* Add some spacing below the heading */
+}
+
+.caption-content p {
+    font-size: 18px; /* Adjust the font size as needed */
+}
+
+/* Add more custom styles for your NGO's branding and design preferences */
+
+/* Logo placeholder */
+.logo {
+    max-width: 150px; /* Set the maximum width for the logo */
+    margin-bottom: 20px;
+}
+
+/* Adjust colors to match your branding */
+body {
+    background-color: #f5f5f5; /* Background color */
+    color: #333; /* Default text color */
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Adjust fonts to match your branding */
+h1, h2, h3 {
+    font-family: "Arial", sans-serif; /* Update the font-family */
+}
+
+/* Adjust button styles */
+.btn {
+    background-color: #ffca28; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    transition: background-color 0.3s; /* Add smooth background color transition */
+}
+
+.btn:hover {
+    background-color: #333; /* Change button background color on hover */
+}
+
+/* Custom container style */
+.custom-container {
+    max-width: 1200px; /* Set the maximum width of the content container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add some spacing around the content */
+}
+
+/* Add spacing between the footer and "Contact Us" section */
+#contact {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+
+
+/* Style the "About Us" section */
+#about {
+    background-color: #f8f8f8;
+    padding: 40px 0;
+}
+
+#about h2 {
+    font-size: 36px; /* Increase heading font size */
+    color: #333; /* Heading color */
+    margin-bottom: 20px; /* Add margin at the bottom of the heading */
+}
+
+#about p {
+    font-size: 18px; /* Increase paragraph font size */
+    color: #555; /* Paragraph text color */
+    text-align: center; /* Center-align the text */
+    margin-bottom: 30px; /* Add margin at the bottom of the paragraphs */
+}
+
+/* Center align the "About Us" content */
+#about .container {
+    text-align: center;
+}
+
+/* Update the footer background color */
+footer {
+    background-color: #ffca28; /* Change footer background color to match the banner */
+    color: #fff; /* Footer text color */
+    padding: 20px 0;
+}
